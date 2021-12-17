@@ -1,6 +1,6 @@
 {
   "name": "react-hook-click-outside",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "This is a React hook to detect click outside of the target(s) elements.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
