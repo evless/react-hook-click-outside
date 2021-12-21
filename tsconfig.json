@@ -1,19 +1,12 @@
 {
-    "compilerOptions": {
-        "outDir": "./dist",
-        "target": "es2017",
-        "module": "es6",
-        "jsx": "react",
-        "moduleResolution": "node",
-        "noImplicitAny": true,
-        "allowSyntheticDefaultImports": true,
-        "resolveJsonModule": true,
-        "baseUrl": ".",
-        "noUnusedLocals": true,
-        "noUnusedParameters": true,
-        "strict": true,
-        "lib": ["es2015", "esnext", "dom"],
-        "esModuleInterop": true,
-        "declaration": true
-    }
+  "compilerOptions": {
+    "outDir": "./dist",
+    "target": "ES2020",
+    "module": "ESNext",
+    "moduleResolution": "node",
+    "jsx": "react",
+    "strict": true,
+    "allowSyntheticDefaultImports": true
+  },
+  "include": ["src"]
 }
