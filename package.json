@@ -1,9 +1,10 @@
 {
   "name": "react-hook-click-outside",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "This is a React hook to detect click outside of the target(s) elements.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
+  "module": "dist/react-hook-click-outside.esm.js",
   "keywords": [
     "react",
     "react-hook",
@@ -11,19 +12,18 @@
     "click"
   ],
   "scripts": {
-    "build": "tsc"
+    "build": "tsdx build"
   },
   "author": "Evgeniy Grachev (https://twitter.com/_evless)",
   "license": "MIT",
   "peerDependencies": {
-    "react": ">= 16.8.0"
-  },
-  "dependencies": {
-    "react": "16.8.6"
+    "react": ">= 16.8.0",
+    "react-dom": ">= 16.8.0"
   },
   "devDependencies": {
     "@types/react": "17.0.37",
     "prettier": "2.5.1",
+    "tsdx": "0.14.1",
     "typescript": "4.5.4"
   }
 }
